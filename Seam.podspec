@@ -9,6 +9,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/nofelmahmood/Seam.git', :tag => "0.6"}
   spec.ios.deployment_target = '8.3'
   spec.osx.deployment_target = '10.10'
+  spec.tvos.deployment_target = '9.0'
   spec.header_dir   = 'Seam'
   spec.source_files = 'Seam/**/*.{h,swift}'
   spec.framework    = 'CoreData'
